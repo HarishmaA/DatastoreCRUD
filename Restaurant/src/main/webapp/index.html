@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="content-type"
+	content="application/xhtml+xml; charset=UTF-8" />
+<title>Restaurant</title>
+</head>
+<h1>Welcome to our restaurant...</h1>
+<form name="create" action="/create" method="POST">
+	<h5>Enter the receipe details...</h5>
+	RECEIPE ID : <input type="text" name="receipeId"><br> <br>
+	RECEIPE NAME : <input type="text" name="receipeName"><br>
+	<input type="submit" value="CREATE	">
+</form>
+<form name="retrieve" action="/retrieve" method="GET">
+	RECEIPE ID : <input type="text" name="receipeId"><br> <br>
+	<input type="submit" value="RETRIEVE">
+</form>
+<form name="update" action="/update" method="GET">
+	RECEIPE ID : <input type="text" name="receipeId"><br> <br>
+	<h5>Update the receipe name...</h5>
+	RECEIPE NAME : <input type="text" name="receipeName"><br>
+	<input type="submit" value="UPDATE">
+</form>
+<form name="delete" action="/delete" method="GET">
+	RECEIPE ID : <input type="text" name="receipeId"><br> <br>
+	<input type="submit" value="DELETE">
+</form>
+</body>
+</html>
